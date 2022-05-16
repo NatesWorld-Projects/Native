@@ -1,118 +1,124 @@
-:root {--accent-primary: #5865f2;}
-
-* {
-  caret-color: #5865f2; 
+.bar-2eAyLE {
+  background-color: var(--accent-primary);
 }
-
-.bar-2eAyLE {background-color: rgba(88, 101, 242, 1);}
 
 /* Blurple Settings Header */
-.header-2Kx1US, .item-3XjbnG, .defaultColor-2cKwKo, .tipTitle-3FYEQp {
-  color: #5865F2;
+.header-2Kx1US,
+.item-3XjbnG,
+.defaultColor-2cKwKo,
+.tipTitle-3FYEQp {
+  color: var(--accent-primary);
 }
 
-.placeholder-1rCBhr {color: #5865f2;
-font-weight: bold;
-text-transform: capitalize;
-text-align: center;
+.placeholder-1rCBhr {
+  color: var(--accent-primary);
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 /* Blurple Join/Explore/Download Buttons */
-.circleIconButton-1VxDrg svg path{
+.circleIconButton-1VxDrg svg path {
   fill: var(--interactive-hover);
 }
-.circleIconButton-1VxDrg.selected-2r1Hvo{
+
+.circleIconButton-1VxDrg.selected-2r1Hvo {
   background-color: var(--accent-primary);
 }
-.circleIconButton-1VxDrg.selected-2r1Hvo svg path{
+
+.circleIconButton-1VxDrg.selected-2r1Hvo svg path {
   fill: white;
 }
 
-.guildSeparator-a4uisj {display: none !important;}
+.guildSeparator-a4uisj {
+  display: none !important;
+}
 
 /* Blurple Drag Line */
 .target-1eRTCg.dragOver-1OKbo2:before {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    top: 10px;
-    left: 4px;
-    right: 4px;
-    height: 4px;
-    background-color: var(--accent-primary);
-    border-radius: 2px;
-    -webkit-box-shadow: 0 0 3px rgb(0 0 0 / 30%);
-    box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 4px;
+  right: 4px;
+  height: 4px;
+  background-color: var(--accent-primary);
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+  box-shadow: 0 0 3px rgb(0 0 0 / 30%);
 }
 
-.containerDragAfter-3aBiOW:after, .containerDragBefore-1s5Qg6:before {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    left: 8px;
-    right: 0;
-    height: 4px;
-    background-color: var(--accent-primary);
-    border-radius: 2px;
-    -webkit-box-shadow: 0 0 3px rgb(0 0 0 / 40%);
-    box-shadow: 0 0 3px rgb(0 0 0 / 40%);
+.containerDragAfter-3aBiOW:after,
+.containerDragBefore-1s5Qg6:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 8px;
+  right: 0;
+  height: 4px;
+  background-color: var(--accent-primary);
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 3px rgb(0 0 0 / 40%);
+  box-shadow: 0 0 3px rgb(0 0 0 / 40%);
 }
 
-.dragAfter-J5iS55:after, .dragBefore-1OyVoX:before {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background-color: var(--accent-primary);
-    border-radius: 2px;
-    -webkit-box-shadow: 0 0 3px rgb(0 0 0 / 40%);
-    box-shadow: 0 0 3px rgb(0 0 0 / 40%);
+.dragAfter-J5iS55:after,
+.dragBefore-1OyVoX:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: var(--accent-primary);
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 3px rgb(0 0 0 / 40%);
+  box-shadow: 0 0 3px rgb(0 0 0 / 40%);
 }
 
 /* Blurple Drag Dot */
 .centerTarget-S6BLFQ.dragOver-1OKbo2:before {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    top: 32px;
-    left: 4px;
-    margin: auto;
-    width: 16px;
-    height: 16px;
-    background-color: var(--accent-primary);
-    border-radius: 50%;
-    -webkit-box-shadow: 0 0 3px rgb(0 0 0 / 30%);
-    box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 32px;
+  left: 4px;
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  background-color: var(--accent-primary);
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+  box-shadow: 0 0 3px rgb(0 0 0 / 30%);
 }
 
 ::selection {
-  background-color: rgba(88, 101, 242, .8);
+  background-color: var(--accent-primary);
 }
 
 /* Blurple Verified Icon */
-.verified-1Jv_7P:not(.disableColor-MwOAZf) > svg path {
-    fill: var(--accent-primary)
+.verified-1Jv_7P:not(.disableColor-MwOAZf)>svg path {
+  fill: var(--accent-primary)
 }
 
 /* Blurple Folders */
 .closedFolderIconWrapper-3tRb2d {
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .closedFolderIconWrapper-3tRb2d * {
-  display:none;
+  display: none;
 }
 
 .closedFolderIconWrapper-3tRb2d::after {
-  content:'';
-  width:24px;
-  height:24px;
-  position:relative;
-  display:block;
-  background: #5865f2;
-  -webkit-mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"/></svg>') center/contain no-repeat;
+  content: '';
+  width: 24px;
+  height: 24px;
+  position: relative;
+  display: block;
+  background: var(--accent-primary);
+  -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"/></svg>') center/contain no-repeat;
 }

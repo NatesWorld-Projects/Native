@@ -1,0 +1,34 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Threads                  ║ Layout                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+
+/* No Border */
+.chat-1-OBC7:before {
+  display: none;
+}
+
+.messagesWrapper-RpOMA3 {
+  background: var(--background-secondary);
+  margin: 0px 0px 0px 0px;
+}
+
+.container-1RZJZM {overflow: auto;}
+
+/* Resize Threads */
+:root {
+    --sidebar-width: 240px; /* change if your theme resizes the sidebar */
+}
+.chat-2ZfjoI.threadSidebarOpen-1LSXvU {
+    resize: horizontal;
+    min-width: 400px;
+    max-width: calc(100vw - var(--sidebar-width) - 72px - 400px);
+}
+.chat-2ZfjoI:not(.threadSidebarOpen-1LSXvU) {
+    width: unset !important;
+    flex: 1 1 auto;
+}
+.threadSidebar-1o3BTy {
+    width: unset;
+    flex: 1 1 auto;
+}
