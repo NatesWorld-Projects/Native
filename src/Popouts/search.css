@@ -1,0 +1,45 @@
+@import url("https://natesworld-projects.github.io/Native/src/Custom/search-dms.css");
+
+:root {--radius: 50px;}
+
+.searchBar-2aylmZ, .searchBar-jGtisZ, .colorDefault-CDqZdO {
+  border-radius: var(--radius) !important;
+}
+.searchBar-jGtisZ, .colorDefault-CDqZdO {
+  border-radius: var(--radius) !important;
+}
+.searchBox-pyIJJj, .colorDefault-CDqZdO {
+  border-radius: var(--radius) !important;
+}
+
+.searchLearnMore-1gNL3A {display: none;}
+.searchIcon-1a1-yA, [class*="iconLayout"] { order: -1 }
+.searchBarComponent-3N7dCG {
+    font-weight: 900 !important;
+    }
+
+.searchBar-jGtisZ{
+    width: 28px;
+    background-color:transparent;
+}
+      
+.iconContainer-1RqWJj {
+    transform: scale(1.2);
+}
+      
+.iconContainer-1RqWJj path {
+    fill: var(--interactive-normal);
+}
+      
+.iconContainer-1RqWJj:hover path {
+    fill: var(--interactive-active);
+}
+      
+.focused-1xh-wG .searchBar-jGtisZ,.searchBar-jGtisZ:hover, .open-1F8u2c .searchBar-jGtisZ {
+    width: 240px;
+    background-color: var(--background-tertiary);
+}
+
+.search-39IXmY {
+    order: -1 !important;
+}
