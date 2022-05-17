@@ -5,7 +5,7 @@
 
 /* Thin (100) */
 @font-face {
-    font-family: "Native-Poppins";
+    font-family: "Native";
     font-style: normal;
     font-weight: 100;
     font-display: swap;
@@ -15,7 +15,7 @@
 
 /* Extra Light (200) */
 @font-face {
-    font-family: "Native-Poppins";
+    font-family: "Native";
     font-style: normal;
     font-weight: 200;
     font-display: swap;
@@ -25,7 +25,7 @@
 
 /* Light (300) */
 @font-face {
-    font-family: "Native-Poppins";
+    font-family: "Native";
     font-style: normal;
     font-weight: 300;
     font-display: swap;
@@ -35,7 +35,7 @@
 
 /* Regular (400) */
 @font-face {
-    font-family: "Native-Poppins";
+    font-family: "Native";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -45,7 +45,7 @@
 
 /* Medium (500) */
 @font-face {
-    font-family: "Native-Poppins";
+    font-family: "Native";
     font-style: normal;
     font-weight: 500;
     font-display: swap;
@@ -55,7 +55,7 @@
 
 /* Semi-Bold (600) */
 @font-face {
-    font-family: "Native-Poppins";
+    font-family: "Native";
     font-style: normal;
     font-weight: 600;
     font-display: swap;
@@ -65,7 +65,7 @@
 
 /* Bold (700) */
 @font-face {
-    font-family: "Native-Poppins";
+    font-family: "Native";
     font-style: normal;
     font-weight: 700;
     font-display: swap;
@@ -75,7 +75,7 @@
 
 /* Extra Bold (800) */
 @font-face {
-    font-family: "Native-Poppins";
+    font-family: "Native";
     font-style: normal;
     font-weight: 800;
     font-display: swap;
