@@ -1,0 +1,4 @@
+/* Remove Underlined username */
+#app-mount .username-h_Y3Us:hover {
+    text-decoration: none;
+}

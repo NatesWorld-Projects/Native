@@ -1,0 +1,4 @@
+/* Notification Settings */
+.iconWrapper-2awDjA[aria-label="notification settings"i]{display: none;}
+[aria-controls="notifications-tab"i] {display:none;}
+[id="user-settings-cog-notifications"i] {display: none;}
