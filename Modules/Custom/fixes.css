@@ -1,3 +1,8 @@
+:root {
+	--small-gap: 3px;
+	--large-gap: 6px;
+}
+
 /* Do not Mirror */
 .mirror-2qdBDS {transform: none}
 
@@ -121,11 +126,6 @@ display: none;
 }
 
 .textBadge-1fdDPJ {display: none;}
-
-:root {
-	--small-gap: 3px;
-	--large-gap: 6px;
-}
 
 /* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║                                               More Fixes                                                  ║ */
