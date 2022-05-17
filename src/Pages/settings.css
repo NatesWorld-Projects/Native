@@ -81,3 +81,117 @@
 }
 
 .sidebar-nqHbhN .item-3XjbnG[aria-controls=audit_log_v2-tab]{display: none;}
+
+/* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                               Settings Header    	                                       ║ */
+/* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Advanced */
+.item-3XjbnG.themed-2-lozF[aria-controls="keybinds-tab"]::after {
+  content: "Advanced Settings";
+  position: absolute;
+  top: -35px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #5865f2;
+  width: 90%;
+  border-top: 1px var(--background-modifier-accent) solid;
+  padding-top: 14px;
+  pointer-events: none;
+}
+
+.item-3XjbnG.themed-2-lozF[aria-controls="keybinds-tab"] {
+  overflow: visible !important;
+  margin-top: 42.5px;
+}
+
+/* Developer Settings */
+.item-3XjbnG.themed-2-lozF[aria-controls="experiments-tab"]::after {
+  content: "Developer Settings";
+  position: absolute;
+  top: -35px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #5865f2;
+  width: 90%;
+  border-top: 1px var(--background-modifier-accent) solid;
+  padding-top: 14px;
+  pointer-events: none;
+}
+
+.item-3XjbnG.themed-2-lozF[aria-controls="experiments-tab"] {
+  overflow: visible !important;
+  margin-top: 42.5px;
+}
+
+/* Overview */
+.item-3XjbnG.themed-2-lozF[aria-controls="overview-tab"]::after {
+  content: "Server Overview";
+  position: absolute;
+  top: -35px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #5865f2;
+  width: 90%;
+  border-top: 1px var(--background-modifier-accent) solid;
+  padding-top: 14px;
+  pointer-events: none;
+}
+
+.item-3XjbnG.themed-2-lozF[aria-controls="overview-tab"] {
+  overflow: visible !important;
+  margin-top: 42.5px;
+}
+
+/* Privacy & Safety Settings */
+.item-3XjbnG.themed-2-lozF[aria-controls="moderation-tab"]::after {
+  content: "Safety Settings";
+  position: absolute;
+  top: -35px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #5865f2;
+  width: 90%;
+  border-top: 1px var(--background-modifier-accent) solid;
+  padding-top: 14px;
+  pointer-events: none;
+}
+
+.item-3XjbnG.themed-2-lozF[aria-controls="moderation-tab"] {
+  overflow: visible !important;
+  margin-top: 42.5px;
+}
+
+/* Other Settings */
+.item-3XjbnG.themed-2-lozF[aria-controls="integrations-tab"]::after {
+  content: "Community Settings";
+  position: absolute;
+  top: -35px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #5865f2;
+  width: 90%;
+  border-top: 1px var(--background-modifier-accent) solid;
+  padding-top: 14px;
+  pointer-events: none;
+}
+
+.item-3XjbnG.themed-2-lozF[aria-controls="integrations-tab"] {
+  overflow: visible !important;
+  margin-top: 42.5px;
+}
