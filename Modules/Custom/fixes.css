@@ -6,21 +6,6 @@
 /* Do not Mirror */
 .mirror-2qdBDS {transform: none}
 
-/* Remove Underlined username */
-#app-mount .username-h_Y3Us:hover {
-    text-decoration: none;
-}
-
-/* Removes Help Button */
-.toolbar-3_r2xA a {
-  display: none;
-}
-
-/* Removes the Close Button on DMs */
-.closeButton-mupH76{
-  display: none !important;
-}
-
 /* Emoji Fix */
 .guildSection-2Zyzy8 > .flex-2S1XBF > svg {
     flex-shrink: 0;
@@ -58,11 +43,6 @@ img.emote {
 background-color: var(--background-secondary);
 }
 
-/* Transparent Icons */
-.icon-3AqZ2e,[src*="https://cdn.discordapp.com/avatars/"]{
-  background: #5865f2;
-}
-
 /* Unread */
 .isUnread-3Lojb- {border-color:transparent !important;} 
 .app-focused .isUnread-3Lojb- {border-color: #f04747 !important;}
@@ -76,54 +56,6 @@ background-color: var(--background-secondary);
 .tabs-1RhQha {justify-content: center;}
 .name-3YKhmS{ text-align: center; }
 .membersGroup-2eiWxl .container-q97qHp {align-content: center;}
-
-/* Move Unread Icon */
-.barButtonIcon-bMvzp2 {
-  order: -1;
-  margin-left: 0px;
-  margin-right: 2px;
-}
-
-/* Move RPC Icon */
-.icon-Lupfh- {order: -1;}
-
-/* Move Owner Icon */
-.ownerIcon-255uKo {
-	order: -1;
-	margin-right: 3px;
-}
-
-/* Recolor Mention Toggle */
-.mentionButton-3C5YMI {color: #5865f2 !important;}
-
-/* Recolor Connection Close Button */
-.connectionDelete-3YgMVq path {fill: #C13A3A;}
-
-/* Recolor Facebook Icon */
-.anchor-1MIwyf:nth-child(2) path {fill: #4267B2;}
-
-/* Remove Logout Icon */
-[d="M18 2H7C5.897 2 5 2.898 5 4V11H12.59L10.293 8.708L11.706 7.292L16.414 11.991L11.708 16.706L10.292 15.294L12.582 13H5V20C5 21.103 5.897 22 7 22H18C19.103 22 20 21.103 20 20V4C20 2.898 19.103 2 18 2Z"] {
-  display: none;
-}
-
-/* Remove Delete Button */
-[d="M5 6.99902V18.999C5 20.101 5.897 20.999 7 20.999H17C18.103 20.999 19 20.101 19 18.999V6.99902H5ZM11 17H9V11H11V17ZM15 17H13V11H15V17Z"], [d="M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z"] {
-display: none;
-}
-
-/* Remove ID Icon */
-[d="M5 2C3.34315 2 2 3.34315 2 5V19C2 20.6569 3.34315 22 5 22H19C20.6569 22 22 20.6569 22 19V5C22 3.34315 20.6569 2 19 2H5ZM8.79741 7.72V16H6.74541V7.72H8.79741ZM13.2097 7.72C16.0897 7.72 17.5897 9.388 17.5897 11.848C17.5897 14.308 16.0537 16 13.2577 16H10.3537V7.72H13.2097ZM13.1497 14.404C14.6137 14.404 15.5257 13.636 15.5257 11.86C15.5257 10.12 14.5537 9.316 13.1497 9.316H12.4057V14.404H13.1497Z"] {
-display: none;
-}
-
-.hasBuildOverride-3V9MZN {
-    display: none;
-}
-
-.buildOverrideButton-1cRvTc [mask="url(#svg-mask-panel-button)"] {
-  mask: none !important;
-}
 
 .textBadge-1fdDPJ {display: none;}
 
@@ -212,6 +144,3 @@ display: none;
 	width: 110%;
 	margin: var(--small-gap);
 }
-
-/* Fixes */
-.divider-q3P9HC {display: none;}
