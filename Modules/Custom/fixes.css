@@ -121,3 +121,97 @@ display: none;
 }
 
 .textBadge-1fdDPJ {display: none;}
+
+:root {
+	--small-gap: 3px;
+	--large-gap: 6px;
+}
+
+/* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                               More Fixes                                                  ║ */
+/* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+
+.title-x4dI75.container-q97qHp, .headerText-1qIDDT {
+	display: flex;
+	justify-content: center;
+}
+
+/* Active Now */
+.defaultColor-24IHKz.heading-lg-medium-3gUJeM.defaultColor-HXu-5n.header-Imy05m {
+	display: flex;
+	justify-content: center;
+}
+
+.itemCard-3Etziu.wrapper-2RrXDg.outer-2JOHae.padded-2NSY6O.interactive-2zD88a {
+	background-color: var(--background-tertiary);
+}
+.headerFull-34WFWN.header-3jUeHi {
+	background-color: var(--background-primary);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.defaultColor-24IHKz.text-md-normal-304U3g.sectionTitle-2AR_TY.textContent-TsKzji {text-transform: capitalize;}
+.defaultColor-24IHKz.text-sm-normal-3Zj3Iv.sectionTitle-2AR_TY.textContent-TsKzji {text-transform: capitalize;}
+.defaultColor-24IHKz.text-xs-normal-3SiVjE.textContent-TsKzji {text-transform: capitalize;}
+
+.section-3G9aLW {background-color: var(--background-primary);}
+.largeImage-2EIggm.borderRadius0-1BDqiC {border-radius: 5px !important;}
+
+/* Members */
+
+
+/* Categories */
+.containerDefault-3TQ5YN {
+	display: flex;
+	justify-content: center;
+	background-color: var(--background-primary);
+	border-radius: var(--radius-primary);
+	margin-top: var(--layout-margin-top);
+	margin-bottom: var(--small-gap);
+	margin-left: var(--layout-margin-left);
+	padding: var(--small-gap) 0;
+} 
+
+.name-3BUDLf.container-q97qHp {color: var(--interactive-normal);}
+
+/* Channels */
+.content-1gYQeQ {
+	background-color: var(--background-primary);
+	border-radius: var(--radius-primary);
+	margin-top: var(--small-gap);
+	margin-bottom: var(--small-gap);
+	padding-left: var(--layout-margin);
+}
+
+/* Members */
+.member-2gU6Ar.container-1oeRFJ.clickable-28SzVr {
+	background-color: var(--background-primary);
+	border-radius: var(--radius-primary) !important;
+	margin-top: var(--large-gap);
+	margin-bottom: var(--large-gap);
+	margin-right: var(--layout-margin-right);
+}
+
+/* Members Header */
+.membersGroup-2eiWxl.container-q97qHp {
+	display: flex;
+	justify-content: center;
+	background-color: var(--background-primary) !important;
+	color: var(--interactive-normal);
+	border-radius: var(--radius-primary);
+	margin: var(--layout-margin) 8px;
+	padding-top: 14px;
+}
+
+/* Friends */
+.interactive-1vLZ_I.interactive-iyXY_x {
+	background-color: var(--background-primary);
+	color: var(--interactive-normal);
+	width: 110%;
+	margin: var(--small-gap);
+}
+
+/* Fixes */
+.divider-q3P9HC {display: none;}
