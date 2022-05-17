@@ -3,6 +3,7 @@
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 :root {
-  --font-primary: var(--SKIN-primary-font, "Native-Poppins", "Native-Dash", "Native-Emoji") !important;
-  --font-display: var(--SKIN-display-font, "Native-Poppins", "Native-Dash", "Native-Emoji") !important;
+  --font-primary: ;
+  --font-display: ;
 }
+
