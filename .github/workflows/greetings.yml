@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Hey, Thanks for submitting your first issue! We hope to fix it as soon as possible! If you find any more issues please make an issue here & let us know in our Discord."
+        pr-message: "Hey, Thanks for submitting your first pull request! We thank you for helping to make the theme it's best version! Keep it up!"
