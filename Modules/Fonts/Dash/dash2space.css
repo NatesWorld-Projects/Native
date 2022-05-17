@@ -1,12 +1,12 @@
 @font-face {
-    font-family: dash2space;
+    font-family: "Native-Dash";
     unicode-range: U+002D;
-    src: url(https://smarty6788.github.io/Dash2Space/src/font/dash2space.ttf) format('truetype'), url(https://smarty6788.github.io/Dash2Space/font/dash2space.woff2) format('woff2')
+    src: url("https://natesworld-projects.github.io/Project-Assets/Fonts/Dash/dash.woff2") format('woff2')
 }
 
 #app-mount [data-list-item-id*="channels___upcoming-events-"]>div.name-28HaxV {
     font-size: 14px;
-    font-family: dash2space, var(--font-primary);
+    font-family: "Native-Dash", var(--font-primary);
     text-transform: capitalize
 }
 
@@ -16,6 +16,6 @@
 .sidebar-1tnWFu .mainContent-20q_Hp[href] .channelName-3KPsGw,
 .title-31SJ6t .iconWrapper-2awDjA .title-17SveM,
 .wrapper-1ZcZW-[class="wrapper-1ZcZW- mention interactive"] {
-    font-family: dash2space, var(--font-primary);
+    font-family: "Native-Dash", var(--font-primary);
     text-transform: capitalize
 }

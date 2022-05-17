@@ -1,0 +1,84 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Fonts                    ║ Poppins                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+
+/* Thin (100) */
+@font-face {
+    font-family: "Native-Poppins";
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("https//natesworld-projects.github.io/Project-Assets/Fonts/Poppins/Poppins-100.woff2") format("woff2");
+    unicode-range: U+0020-007F, U+00A0-00FF, U+0100-017F, U+0180-024F;
+  }
+
+/* Extra Light (200) */
+@font-face {
+    font-family: "Native-Poppins";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("https//natesworld-projects.github.io/Project-Assets/Fonts/Poppins/Poppins-200.woff2") format("woff2");
+    unicode-range: U+0020-007F, U+00A0-00FF, U+0100-017F, U+0180-024F;
+  }
+
+/* Light (300) */
+@font-face {
+    font-family: "Native-Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("https//natesworld-projects.github.io/Project-Assets/Fonts/Poppins/Poppins-300.woff2") format("woff2");
+    unicode-range: U+0020-007F, U+00A0-00FF, U+0100-017F, U+0180-024F;
+  }
+
+/* Regular (400) */
+@font-face {
+    font-family: "Native-Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("https//natesworld-projects.github.io/Project-Assets/Fonts/Poppins/Poppins-400.woff2") format("woff2");
+    unicode-range: U+0020-007F, U+00A0-00FF, U+0100-017F, U+0180-024F;
+  }
+
+/* Medium (500) */
+@font-face {
+    font-family: "Native-Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("https//natesworld-projects.github.io/Project-Assets/Fonts/Poppins/Poppins-500.woff2") format("woff2");
+    unicode-range: U+0020-007F, U+00A0-00FF, U+0100-017F, U+0180-024F;
+  }
+
+/* Semi-Bold (600) */
+@font-face {
+    font-family: "Native-Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("https//natesworld-projects.github.io/Project-Assets/Fonts/Poppins/Poppins-600.woff2") format("woff2");
+    unicode-range: U+0020-007F, U+00A0-00FF, U+0100-017F, U+0180-024F;
+  }
+
+/* Bold (700) */
+@font-face {
+    font-family: "Native-Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("https//natesworld-projects.github.io/Project-Assets/Fonts/Poppins/Poppins-700.woff2") format("woff2");
+    unicode-range: U+0020-007F, U+00A0-00FF, U+0100-017F, U+0180-024F;
+  }
+
+/* Extra Bold (800) */
+@font-face {
+    font-family: "Native-Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("https//natesworld-projects.github.io/Project-Assets/Fonts/Poppins/Poppins-800.woff2") format("woff2");
+    unicode-range: U+0020-007F, U+00A0-00FF, U+0100-017F, U+0180-024F;
+  }
