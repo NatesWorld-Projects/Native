@@ -27,6 +27,9 @@ img.emote {
     top: 0.25ex;
 }
 
+/* Stickers */
+.pngImage-1vIgLy.stickerAsset-4c7Oqy {border-radius: 10px;}
+
 /* File Icon */
 .audioMetadata-1Hrt8T::before {
     min-width: 24px;
