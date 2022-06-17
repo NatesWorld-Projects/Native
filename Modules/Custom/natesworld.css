@@ -1,0 +1,87 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Custom                   ║ Nate's World                                                        ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════╝
+*/
+
+/* Banner */
+.bannerVisible-Vkyg1I .header-3OsQeK {
+    height: 135px !important;
+    padding-bottom: 100px;
+  }
+  
+  /* Remove */
+  .scroller-1ox3I2 [style="height: 84px;"] {
+    display: none !important;
+  }
+
+
+/* Banner */
+.container-1NXEtd[aria-label*="Nate's World | Community"] .header-3OsQeK::before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://media.discordapp.net/attachments/978450082837954571/979566216622514227/unknown.png?width=678&height=401");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: var(--radius-primary);
+    opacity: 1.0;
+}
+
+/* Spacing */
+.container-1NXEtd[aria-label*="Nate's World | Community"] .header-3OsQeK {
+    height: 135px !important;
+    padding-bottom: 90px;
+    background: transparent;
+}
+
+/* Info Hide (Normal)*/
+.container-1NXEtd[aria-label*="Nate's World | Community"] .guildIconContainer-2FW_iA,
+.container-1NXEtd[aria-label*="Nate's World | Community"] .name-3Uvkvr,
+.container-1NXEtd[aria-label*="Nate's World | Community"] .button-2BMPJJ {
+    z-index: 2;
+    transition: none;
+}
+
+[aria-label^="Nate's World | Community"] .container-1-ERn5 .header-3OsQeK .name-3Uvkvr::before {
+	content: "";
+	background: url("https://media.discordapp.net/attachments/978450082837954571/982839078309494864/unknown.png") center/100% no-repeat;
+	padding: 1px 8px 0px 8px;
+	margin-right: 6px;
+}
+
+[aria-label^="Nate's World | Community"] .container-1-ERn5 .header-3OsQeK .name-3Uvkvr::after {
+	content: "Nate's World | Comunity";
+	font-size: 12px;
+	position: absolute;
+	background-color: var(--background-floating);
+	padding: 5px 10px;
+	border-radius: 4px;
+	opacity: 0;
+	display: none;
+	animation: tooltip .5s forwards;
+}
+
+@keyframes tooltip {
+	from {
+		left: 5px;
+		top: 35px;
+		opacity: 0;
+		display: none;
+	}
+
+	to {
+		left: 10px;
+		top: 40px;
+		opacity: 1;
+		display: block;
+	}
+}
+
+[aria-label^="Nate's World | Community"] .container-1-ERn5 .header-3OsQeK .name-3Uvkvr:hover::after {
+	opacity: 1;
+	display: block;
+}
