@@ -1,0 +1,36 @@
+.nowPlayingColumn-1eCBCN > div > div > h3 {
+	position: fixed;
+	width: 360px;
+	right: 0;
+	top: 20px;
+	text-align: center;
+}
+
+
+.nowPlayingColumn-1eCBCN > div > div {
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(100px, 50px));
+	grid-gap: 10px;
+	grid-template-rows: repeat(auto-fill, minmax(100px, 60px));
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* 
+.scroller-hE2gWq {
+	border-left: unset;
+}
+
+.itemCard-3Etziu {
+	margin-top: unset;
+}
+
+.itemCard-3Etziu {
+	max-height: 40px;
+}
+
+.body-16rSsp {
+	display: none;
+} */
