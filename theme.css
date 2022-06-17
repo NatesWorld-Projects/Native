@@ -79,6 +79,7 @@
 /* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.              ║ */
 /* ╚════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
+/* @import url("https://natesworld-projects.github.io/Native/Modules/Addons/active-now.css"); */
 @import url("https://natesworld-projects.github.io/Native/Modules/Addons/badges.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Addons/banner-tags.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Addons/better-activity.css");
@@ -169,6 +170,7 @@
 @import url("https://natesworld-projects.github.io/Native/Modules/Custom/search-dms.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Custom/spotify.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Custom/status.css");
+@import url("https://natesworld-projects.github.io/Native/Modules/Custom/timestamps.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Custom/toasts.css");
 
 /* ╔════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
@@ -232,7 +234,7 @@
 /* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.              ║ */
 /* ╚════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@import url("https://natesworld-projects.github.io/Native/Modules/Privacy/user-name.css");
+/* @import url("https://natesworld-projects.github.io/Native/Modules/Privacy/user-name.css"); */
 @import url("https://natesworld-projects.github.io/Native/Modules/Privacy/user-tag.css");
 
 /* ╔════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
