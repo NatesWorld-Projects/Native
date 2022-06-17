@@ -1,0 +1,16 @@
+/* ╔════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Privacy            ║ User Tag                                                                                ║ */
+/* ╚════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.overflow-1wOqNV:not(.name-2m3Cms) {
+    background: var(--header-secondary);
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+    margin-top: 12px;
+    margin-bottom: 8px;
+  }
+  
+  .overflow-1wOqNV:hover {
+    background: transparent;
+  }
