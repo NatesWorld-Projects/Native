@@ -1,0 +1,25 @@
+# Code Owners
+
+# Global Owners
+
+# All Pull Requests
+
+* @Nates-World21
+
+# CSS File Owners
+
+# All Changes to CSS Files
+
+*.css @Nates-World21
+
+# SCSS File Owners
+
+# All Changes to SCSS Files
+
+*.scss @Nates-World21
+
+# MD File Owners
+
+# All Changes to Markdown Files
+
+*.md  @Nates-World21
