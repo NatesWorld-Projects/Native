@@ -14,8 +14,7 @@
     display: none !important;
   }
 
-
-/* Banner */
+/* Nate's World Banner */
 .container-1NXEtd[aria-label*="Nate's World | Community"] .header-3OsQeK::before {
     position: absolute;
     content: "";
@@ -23,7 +22,7 @@
     left: 0px;
     height: 100%;
     width: 100%;
-    background-image: url("https://media.discordapp.net/attachments/978450082837954571/979566216622514227/unknown.png?width=678&height=401");
+    background-image: url("https://media.discordapp.net/attachments/978796783075491864/990332737409912832/unknown.png?width=678&height=401");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -46,8 +45,7 @@
     transition: none;
 }
 
-/* Icon */
-
+/* Nate's World Server Icon */
 [aria-label^="Nate's World | Community"] .container-1-ERn5 .header-3OsQeK .name-3Uvkvr::before {
 	content: "";
 	background: url("https://media.discordapp.net/attachments/978450082837954571/982839078309494864/unknown.png") center/100% no-repeat;
