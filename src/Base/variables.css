@@ -17,8 +17,8 @@
 	--tag: "#2102";
 
 	/* Version */
-	--current: "V1.0.0";
-	--latest: "V1.0.1";
+	--current: "V1.0.2";
+	--latest: "V1.0.2";
 
 	/* Version Info */
 	--current-info: "Current Version: " var(--info-current) " (Current) ";
