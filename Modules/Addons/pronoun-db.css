@@ -1,0 +1,19 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Pronoun DB               ║ Dividers                                                            ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════╝
+*/
+
+/* adds horizontal lines to space out pronouns in about me */
+.pronoundb-pronouns.aboutMeBody-1J8rhz,
+.aboutMeBody-1J8rhz.markup-eYLPri.clamped-2ZePhX {
+    --separation: 10px 0;
+    --borders: 1px var(--background-modifier-accent) solid;
+    font-size: 14px !important;
+    margin: var(--separation);
+    padding: var(--separation);
+    border-top: var(--borders);
+    border-bottom: var(--borders);
+}
+.aboutMeTitle-3pjiS7 {
+    display: none;
+}
