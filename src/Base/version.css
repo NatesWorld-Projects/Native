@@ -16,7 +16,7 @@
 }
 
 /* Badge */
-[aria-label="Servers"]::before {
+[aria-label="Servers"]:not(.autocompleteQuerySymbol-1iAOG7)::before {
 	display: flex;
 	justify-content: center;
 	content: var(--current);
@@ -28,10 +28,11 @@
 	margin: 0 var(--layout-margin);
 	margin-bottom: calc(var(--layout-margin-bottom)*2);
 	padding-top: var(--layout-margin-top);
+	cursor: pointer;
 }
 
 /* Divider */
-[aria-label="Servers"]::after {
+[aria-label="Servers"]:not(.autocompleteQuerySymbol-1iAOG7)::after {
     content: "";
     position: absolute;
     top: 235px;
@@ -41,6 +42,7 @@
     border-top: 3px var(--background-modifier-accent) solid;
     pointer-events: none;
 }
+
 
 /* Settings Info */
 .info-3pQQBb {
