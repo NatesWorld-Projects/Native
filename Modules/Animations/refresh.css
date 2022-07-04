@@ -1,0 +1,27 @@
+.button-2BMPJJ:hover {
+	animation: headerDots 2s ease-out;
+}
+
+[aria-label="Refresh"] {transform: rotate(180deg);} 
+[aria-label="Refresh"]:hover {
+	animation: rotate 2s infinite linear;
+} 
+
+@keyframes rotate {
+  from {
+    transform: rotate(-180deg);
+  }
+  to {
+    transform: rotate(179deg);
+  }
+}
+
+@keyframes headerDots {
+	from {
+		transform: rotate(0)
+	}
+
+	to {
+		transform: translate3d(0, -3px, 0) rotate(-90deg)
+	}
+}
