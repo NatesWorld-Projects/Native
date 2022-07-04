@@ -95,6 +95,7 @@
 @import url("https://natesworld-projects.github.io/Native/Modules/Addons/codeblock-icons.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Addons/contextmenu-icons.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Addons/discolored.css");
+@import url("https://natesworld-projects.github.io/Native/Modules/Addons/emoji-outline.css");
 /* @import url("https://natesworld-projects.github.io/Native/Modules/Addons/events-grid.css"); */
 /* @import url("https://natesworld-projects.github.io/Native/Modules/Addons/friend-banners.css"); */
 @import url("https://natesworld-projects.github.io/Native/Modules/Addons/friends-grid.css");
@@ -146,6 +147,7 @@
 /* @import url("https://natesworld-projects.github.io/Native/Modules/Animations/hide-channels.css"); */
 @import url("https://natesworld-projects.github.io/Native/Modules/Animations/hide-pannels.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Animations/media-popout.css");
+@import url("https://natesworld-projects.github.io/Native/Modules/Animations/refresh.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Animations/upload.css");
 
 /* ╔════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
@@ -259,13 +261,14 @@
 /* ╚════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 /* Buttons */
+@import url("https://natesworld-projects.github.io/Native/Modules/Remove/Buttons/activity.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Remove/Buttons/add.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Remove/Buttons/close.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Remove/Buttons/download.css");
 /* @import url("https://natesworld-projects.github.io/Native/Modules/Remove/Buttons/emoji.css"); */
 @import url("https://natesworld-projects.github.io/Native/Modules/Remove/Buttons/explore.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Remove/Buttons/gif.css");
-/* @import url("https://natesworld-projects.github.io/Native/Modules/Remove/Buttons/gift.css"); */
+@import url("https://natesworld-projects.github.io/Native/Modules/Remove/Buttons/gift.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Remove/Buttons/help.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Remove/Buttons/sticker.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Remove/Buttons/threads.css");
