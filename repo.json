@@ -1,0 +1,12 @@
+{
+    "meta": {
+        "name": "Native (Cumcord)",
+        "description": "Native a clean, sleek, simple feeling Discord theme made with love.",
+        "author": "Nate's World#2039",
+        "maintainer": "Nate's World#2039",
+        "license": "MIT"
+    },
+    "themes": [
+        "https://NatesWorld-Projects.github.io/Native/theme.css"
+    ]
+}
