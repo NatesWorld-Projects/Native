@@ -17,6 +17,10 @@
 	margin: var(--layout-margin-top) var(--layout-margin-right) var(--layout-margin-bottom) var(--layout-margin);
 }
 
+.notDevTools-1zkgfK {
+	background-color: var(--background-primary);
+}
+
 /* No Lines */
 .form-3gdLxP:before,
 .children-3xh0VB:after,
