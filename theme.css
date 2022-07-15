@@ -64,7 +64,7 @@
 /* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.              ║ */
 /* ╚════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* @import url("https://natesworld-projects.github.io/Native/Modules/Addons/Avatar-Shapes/rounded.css"); */
+@import url("https://natesworld-projects.github.io/Native/Modules/Addons/Avatar-Shapes/rounded.css");
 /* @import url("https://natesworld-projects.github.io/Native/Modules/Addons/Chat-Bubbles/right.css"); */
 @import url("https://natesworld-projects.github.io/Native/Modules/Addons/Chat-Bubbles/left.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Addons/Context-Menus/styling/css");
@@ -126,6 +126,7 @@
 /* @import url("https://natesworld-projects.github.io/Native/Modules/Addons/theme-grid.css"); */
 @import url("https://natesworld-projects.github.io/Native/Modules/Addons/theme-warnings.css");
 /* @import url("https://natesworld-projects.github.io/Native/Modules/Addons/thread-icons.css"); */
+@import url("https://natesworld-projects.github.io/Native/Modules/Addons/touchup.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Addons/user-tags.css");
 /* @import url("https://natesworld-projects.github.io/Native/Modules/Addons/voice-links.css"); */
 
@@ -313,6 +314,7 @@
 
 /* Tags */
 @import url("https://natesworld-projects.github.io/Native/Modules/Remove/Tags/beta.css");
+@import url("https://natesworld-projects.github.io/Native/Modules/Remove/Tags/nitro.css");
 @import url("https://natesworld-projects.github.io/Native/Modules/Remove/Tags/public-tag.css");
 
 /* ╔════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
