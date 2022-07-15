@@ -1,0 +1,53 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║  Guild Settings          ║ Source                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+
+[aria-controls="vanity_url-tab"] {
+    font-size: 0;
+    line-height: 0;
+}
+
+[aria-controls="vanity_url-tab"]::after {
+    content: "Vanity URL";
+    font-size: initial;
+    line-height: initial;
+}
+
+[aria-controls="guild_automod-tab"] {
+    font-size: 0;
+    line-height: 0;
+}
+
+[aria-controls="guild_automod-tab"]::after {
+    content: "Auto Mod";
+    font-size: initial;
+    line-height: initial;
+}
+
+[aria-controls="community-tab"] {
+    font-size: 0;
+    line-height: 0;
+}
+
+[aria-controls="community-tab"]::after {
+    content: "Community Overview";
+    font-size: initial;
+    line-height: initial;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Settings                 ║ Source                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+
+[aria-controls="connections-tab"] {
+	font-size: 0px;
+	line-height: 0px;
+}
+
+[aria-controls="connections-tab"]::after {
+	content: "Connections";
+	font-size: initial;
+	line-height: initial;
+}
