@@ -1,0 +1,8 @@
+{
+  "name": "Native V2",
+  "description": "Native a clean, sleek, simple feeling Discord theme made with love :)",
+  "version": "2.0.0",
+  "author": "Nate's World#2039",
+  "license": "MIT",
+  "theme": "main.css"
+}
