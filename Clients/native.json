@@ -1,0 +1,39 @@
+{
+  "manifest": {
+    "name": "Native (Aluicord)",
+    "author": "Nate's World#2039",
+    "license": "MIT",
+    "version": "1.0.0",
+    "updater": "https://raw.githubusercontent.com/NatesWorld-Projects/Native/Master/Clients/native.json"
+  },
+  "background": {
+    "url": "",
+    "alpha": "",
+    "overlay_alpha": "5",
+    "blur_radius": "5"  
+  },
+  "fonts": {
+    "*": "This changes the font globally",
+    "ginto_bold": "changes categories, channel names, and headers in user settings",
+    "ginto_medium": "changes user settings category names, and the channel name in the member list",
+    "ginto_regular": "changes nothing for me, you can test it if you want",
+    "roboto_medium_numbers": "changes nothing for me, you can test it if you want",
+    "sourcecodepro_semibold": "changes nothing for me, you can test it if you want",
+    "whitney_bold": "changes server template names, and Invite should look like this",
+    "whitney_medium": "changes message text, channel names, button names, etc",
+    "whitney_semibold": "changes selected channel name, DM List names, etc"
+  },
+  "simple_colors": {
+    "active_channel": 1683514866,
+    "accent": -10983950,
+    "background": -14671323,
+    "background_secondary": -13684426,
+    "blocked_bg": 15746887,
+    "input_background": -15197924,
+    "mention_highlight": -10983950,
+    "statusbar": -14671323
+  },
+  "colors": {},
+  "drawable_tints": {},
+  "raws": {}
+}
